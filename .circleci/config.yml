@@ -21,6 +21,10 @@ jobs:
       - run:
           name: Build Test Jar
           command: |
+            pwd
+      - run:
+          name: Build Test Jar
+          command: |
             javac ~/CircleCiTest/TestButtonOutput.java
       - run:
           name: Run Test Jar
