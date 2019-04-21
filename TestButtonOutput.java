@@ -6,7 +6,7 @@ public class TestButtonOutput {
     public static void main(String[] args) {
 
         // Setup selenium driver
-	System.setProperty("webdriver.gecko.driver",".");
+	System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir/circleci")) // find right path?
 	WebDriver driver = new FirefoxDriver();
 
         // open html file
