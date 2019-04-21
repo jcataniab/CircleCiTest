@@ -29,5 +29,5 @@ jobs:
       - run:
           name: Run Test Jar
           command: |
-            java -cp . CircleCiTest.TestButtonOutput
+            java -cp ".:selenium-server-standalone-3.5.3.jar" CircleCiTest.TestButtonOutput
       
