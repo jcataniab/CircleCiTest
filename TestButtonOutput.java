@@ -6,8 +6,7 @@ public class TestButtonOutput {
     public static void main(String[] args) {
 
         // Setup selenium driver
-	System.setProperty("webdriver.chrome.driver", "G:\\chromedriver.exe");
-	WebDriver driver = new ChromeDriver();
+	WebDriver driver = new FirefoxDriver();
 
         // open html file
         driver.get("file:" + System.getProperty("user.dir") + "/index.html");
