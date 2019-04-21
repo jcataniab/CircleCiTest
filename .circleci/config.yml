@@ -18,4 +18,12 @@ jobs:
           command: |
             java -jar selenium-server-standalone-3.5.3.jar -log test-reports/selenium.log
           background: true
+      - run:
+          name: Build Test Jar
+          command: |
+            javac ../../TestButtonOutput.java
+      - run:
+          name: Run Test Jar
+          command: |
+            javac ../../TestButtonOutput
       
