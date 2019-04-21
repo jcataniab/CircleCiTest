@@ -21,9 +21,9 @@ jobs:
       - run:
           name: Build Test Jar
           command: |
-            javac ../../TestButtonOutput.java
+            javac ~/CircleCiTest/TestButtonOutput.java
       - run:
           name: Run Test Jar
           command: |
-            javac ../../TestButtonOutput
+            javac ~/CircleCiTest/TestButtonOutput
       
