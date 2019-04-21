@@ -23,6 +23,10 @@ jobs:
           command: |
             javac -cp "selenium-server-standalone-3.5.3.jar" TestButtonOutput.java
       - run:
+          name: ls
+          command: |
+            ls
+      - run:
           name: Run Test Jar
           command: |
             java TestButtonOutput
