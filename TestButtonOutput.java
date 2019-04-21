@@ -6,6 +6,7 @@ public class TestButtonOutput {
     public static void main(String[] args) {
 
         // Setup selenium driver
+	System.setProperty("webdriver.gecko.driver",".");
 	WebDriver driver = new FirefoxDriver();
 
         // open html file
